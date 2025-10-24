@@ -1,0 +1,4 @@
+aiohttp
+pyyaml
+transformers
+torch
