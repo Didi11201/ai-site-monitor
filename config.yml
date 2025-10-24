@@ -1,0 +1,25 @@
+# === AI Site Monitor 配置文件 ===
+
+# 要识别的关键词（英文或中文都可以）
+keywords:
+  - sale
+  - discount
+  - promotion
+  - offer
+  - clearance
+  - deal
+  - free
+  - gift
+  - reward
+  - 优惠
+  - 折扣
+  - 促销
+
+# 输出文件名
+output: results.csv
+
+# 是否开启通知（目前我们先用 false）
+notify: false
+
+# 运行周期（此项仅供参考，实际由 GitHub Actions 控制）
+interval_hours: 12
